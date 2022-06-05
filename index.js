@@ -54,7 +54,7 @@ window.onload = function(){
 
    if (guessed_letter > -1) {
      var updated_word = [];
-     for (var i = 0; i < word.length; i++) {
+     for (var i = 0; i < remainingLetters; i++) {
        if(word[i] === key){
         updated_word.push(key)
        } else{
